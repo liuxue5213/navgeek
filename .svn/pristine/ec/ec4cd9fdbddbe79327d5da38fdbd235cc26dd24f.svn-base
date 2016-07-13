@@ -1,0 +1,1366 @@
+2016/04/23 14:20:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "help/cookies".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('help/cookies')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/help/cookies
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/23 14:20:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "help/cookies".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('help/cookies')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/help/cookies
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/23 14:20:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about/privacy".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('about/privacy')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/about/privacy
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/23 14:20:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "legal/terms".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('legal/terms')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/legal/terms
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/23 14:20:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "legal/terms".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('legal/terms')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/legal/terms
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/23 14:21:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about/privacy".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('about/privacy')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/about/privacy
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/23 14:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "help/cookies".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('help/cookies')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/help/cookies
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/23 14:22:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "legal/terms".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('legal/terms')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/legal/terms
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/23 14:22:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about/privacy".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('about/privacy')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/about/privacy
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/23 14:27:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about/privacy".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('about/privacy')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/about/privacy
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/23 14:30:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('settings')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/settings/?tab=applications
+HTTP_REFERER=http://navgeek/help/privacy
+---
+2016/04/23 14:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/23 16:14:47 [error] [php] Object of class aes could not be converted to string (E:\WWW\navgeek\protected\controllers\SiteController.php:58)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/site/refernavs
+2016/04/23 16:22:40 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\controllers\SiteController.php:57)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/site/refernavs
+2016/04/23 16:23:24 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\controllers\SiteController.php:57)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/site/refernavs
+2016/04/25 09:45:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/25 11:46:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/25 17:25:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/25 17:50:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/26 16:51:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/26 16:51:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://navgeek/
+---
+2016/04/27 09:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/27 11:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/27 14:28:09 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "parameter".' in E:\WWW\framework\base\CComponent.php:266
+Stack trace:
+#0 E:\WWW\navgeek\protected\controllers\UserController.php(24): CComponent->__call('parameter', Array)
+#1 E:\WWW\navgeek\protected\controllers\UserController.php(24): CHttpRequest->parameter('str')
+#2 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionSetUserInfo()
+#3 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\WWW\framework\web\CWebApplication.php(282): CController->run('setUserInfo')
+#7 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/setUserInf...')
+#8 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\WWW\navgeek\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/setUserInfo
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/27 14:28:18 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "parameter".' in E:\WWW\framework\base\CComponent.php:266
+Stack trace:
+#0 E:\WWW\navgeek\protected\controllers\UserController.php(24): CComponent->__call('parameter', Array)
+#1 E:\WWW\navgeek\protected\controllers\UserController.php(24): CHttpRequest->parameter('str')
+#2 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionSetUserInfo()
+#3 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\WWW\framework\web\CWebApplication.php(282): CController->run('setUserInfo')
+#7 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/setUserInf...')
+#8 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\WWW\navgeek\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/setUserInfo
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/27 14:40:42 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "parameter".' in E:\WWW\framework\base\CComponent.php:266
+Stack trace:
+#0 E:\WWW\navgeek\protected\controllers\UserController.php(24): CComponent->__call('parameter', Array)
+#1 E:\WWW\navgeek\protected\controllers\UserController.php(24): CHttpRequest->parameter('str')
+#2 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionSetUserInfo()
+#3 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\WWW\framework\web\CWebApplication.php(282): CController->run('setUserInfo')
+#7 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/setUserInf...')
+#8 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\WWW\navgeek\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/setUserInfo?utime=1461739242&str=123
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/27 14:40:47 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "parameter".' in E:\WWW\framework\base\CComponent.php:266
+Stack trace:
+#0 E:\WWW\navgeek\protected\controllers\UserController.php(24): CComponent->__call('parameter', Array)
+#1 E:\WWW\navgeek\protected\controllers\UserController.php(24): CHttpRequest->parameter('str')
+#2 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionSetUserInfo()
+#3 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\WWW\framework\web\CWebApplication.php(282): CController->run('setUserInfo')
+#7 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/setUserInf...')
+#8 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\WWW\navgeek\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/setUserInfo?utime=1461739247&str=123
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/27 14:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/27 14:59:00 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "parameter".' in E:\WWW\framework\base\CComponent.php:266
+Stack trace:
+#0 E:\WWW\navgeek\protected\controllers\UserController.php(24): CComponent->__call('parameter', Array)
+#1 E:\WWW\navgeek\protected\controllers\UserController.php(24): CHttpRequest->parameter('str')
+#2 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionSetUserInfo()
+#3 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\WWW\framework\web\CWebApplication.php(282): CController->run('setUserInfo')
+#7 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/setUserInf...')
+#8 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\WWW\navgeek\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/setUserInfo
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/27 16:05:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/27 18:40:14 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\controllers\UserController.php:33)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/27 18:40:45 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\controllers\UserController.php:33)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/27 18:41:17 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\controllers\UserController.php:33)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/27 19:03:35 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\controllers\UserController.php:35)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/27 19:05:28 [error] [php] iconv(): Detected an illegal character in input string (E:\WWW\navgeek\protected\controllers\UserController.php:36)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/27 19:07:14 [error] [php] iconv(): Detected an illegal character in input string (E:\WWW\navgeek\protected\controllers\UserController.php:36)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/27 19:15:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/27 19:31:15 [error] [php] Undefined variable: decrypted (E:\WWW\navgeek\protected\controllers\UserController.php:22)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/27 19:32:27 [error] [php] iconv(): Detected an illegal character in input string (E:\WWW\navgeek\protected\controllers\UserController.php:24)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/27 19:32:51 [error] [php] iconv(): Wrong charset, conversion from `utf-8//illegal ' to `Latin1' is not allowed (E:\WWW\navgeek\protected\controllers\UserController.php:24)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/27 19:34:48 [error] [php] iconv(): Detected an illegal character in input string (E:\WWW\navgeek\protected\controllers\UserController.php:26)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/27 19:42:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/27 19:45:54 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\controllers\UserController.php:15)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/27 19:45:59 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\controllers\UserController.php:15)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/27 19:45:59 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\controllers\UserController.php:15)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/27 19:45:59 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\controllers\UserController.php:15)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/27 19:49:56 [error] [php] explode() expects at least 2 parameters, 1 given (E:\WWW\navgeek\protected\controllers\UserController.php:30)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/27 20:03:30 [error] [php] Undefined variable: login_username (E:\WWW\navgeek\protected\controllers\UserController.php:46)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/27 20:04:56 [error] [php] explode() expects parameter 2 to be string, array given (E:\WWW\navgeek\protected\controllers\UserController.php:34)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/27 20:13:23 [error] [php] include(redis.php): failed to open stream: No such file or directory (E:\WWW\framework\YiiBase.php:432)
+Stack trace:
+#0 E:\WWW\navgeek\protected\controllers\UserController.php(40): spl_autoload_call()
+#1 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionSetUserInfo()
+#2 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#4 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#6 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/28 09:31:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/28 15:50:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/28 18:18:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/28 20:21:48 [error] [php] mcrypt_decrypt(): Size of key is too large for this algorithm (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionSetUserInfo()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/28 20:22:38 [error] [php] mcrypt_decrypt(): Size of key is too large for this algorithm (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionSetUserInfo()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/28 20:22:52 [error] [php] mcrypt_decrypt(): Size of key is too large for this algorithm (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionSetUserInfo()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/28 20:23:08 [error] [php] mcrypt_decrypt(): Size of key is too large for this algorithm (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionSetUserInfo()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/28 20:23:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "PostRegister".' in E:\WWW\framework\web\CController.php:483
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(270): CController->missingAction('PostRegister')
+#1 E:\WWW\framework\web\CWebApplication.php(282): CController->run('PostRegister')
+#2 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/PostRegist...')
+#3 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\WWW\navgeek\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/PostRegister?utime=1461846219
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/29 09:46:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 10:02:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 10:02:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://navgeek/
+---
+2016/04/29 10:07:19 [error] [php] Undefined index: username (E:\WWW\navgeek\protected\controllers\UserController.php:54)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/29 10:10:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "PostRegister".' in E:\WWW\framework\web\CController.php:483
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(270): CController->missingAction('PostRegister')
+#1 E:\WWW\framework\web\CWebApplication.php(282): CController->run('PostRegister')
+#2 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/PostRegist...')
+#3 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\WWW\navgeek\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/PostRegister?utime=1461895829
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/29 10:11:39 [error] [php] Undefined index: username (E:\WWW\navgeek\protected\controllers\UserController.php:54)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/29 10:12:24 [error] [php] Undefined variable: utime (E:\WWW\navgeek\protected\controllers\UserController.php:32)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1461895945
+2016/04/29 10:14:39 [error] [php] Undefined offset: 1 (E:\WWW\navgeek\protected\components\Func.php:18)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1461896079
+2016/04/29 10:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 10:36:17 [error] [php] Array to string conversion (E:\WWW\navgeek\protected\controllers\UserController.php:55)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostRegister?utime=1461897204&username=956149307@qq.com
+2016/04/29 10:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 11:03:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 11:23:16 [error] [php] Undefined variable: asql (E:\WWW\navgeek\protected\controllers\UserController.php:62)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostRegister?utime=1461897204&username=956149307@qq.com
+2016/04/29 14:16:28 [error] [php] Undefined variable: status (E:\WWW\navgeek\protected\views\layouts\alert.php:2)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\WWW\navgeek\protected\views\user\login.php(66): UserController->renderPartial()
+#2 E:\WWW\framework\web\CBaseController.php(126): require()
+#3 E:\WWW\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#5 E:\WWW\framework\web\CController.php(782): UserController->renderPartial()
+#6 E:\WWW\navgeek\protected\controllers\UserController.php(25): UserController->render()
+#7 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#8 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#10 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/29 14:17:33 [error] [php] Undefined variable: status (E:\WWW\navgeek\protected\views\layouts\alert.php:2)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\WWW\navgeek\protected\views\user\login.php(66): UserController->renderPartial()
+#2 E:\WWW\framework\web\CBaseController.php(126): require()
+#3 E:\WWW\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#5 E:\WWW\framework\web\CController.php(782): UserController->renderPartial()
+#6 E:\WWW\navgeek\protected\controllers\UserController.php(25): UserController->render()
+#7 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#8 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#10 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/29 14:17:34 [error] [php] Undefined variable: status (E:\WWW\navgeek\protected\views\layouts\alert.php:2)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\WWW\navgeek\protected\views\user\login.php(66): UserController->renderPartial()
+#2 E:\WWW\framework\web\CBaseController.php(126): require()
+#3 E:\WWW\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#5 E:\WWW\framework\web\CController.php(782): UserController->renderPartial()
+#6 E:\WWW\navgeek\protected\controllers\UserController.php(25): UserController->render()
+#7 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#8 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#10 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/29 14:17:34 [error] [php] Undefined variable: status (E:\WWW\navgeek\protected\views\layouts\alert.php:2)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\WWW\navgeek\protected\views\user\login.php(66): UserController->renderPartial()
+#2 E:\WWW\framework\web\CBaseController.php(126): require()
+#3 E:\WWW\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#5 E:\WWW\framework\web\CController.php(782): UserController->renderPartial()
+#6 E:\WWW\navgeek\protected\controllers\UserController.php(25): UserController->render()
+#7 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#8 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#10 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/29 14:24:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 14:48:47 [error] [php] Undefined index:  (E:\WWW\navgeek\protected\views\layouts\alert.php:13)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\WWW\navgeek\protected\views\user\login.php(66): UserController->renderPartial()
+#2 E:\WWW\framework\web\CBaseController.php(126): require()
+#3 E:\WWW\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#5 E:\WWW\framework\web\CController.php(782): UserController->renderPartial()
+#6 E:\WWW\navgeek\protected\controllers\UserController.php(25): UserController->render()
+#7 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#8 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#10 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/29 14:48:52 [error] [php] Undefined index:  (E:\WWW\navgeek\protected\views\layouts\alert.php:13)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\WWW\navgeek\protected\views\user\login.php(66): UserController->renderPartial()
+#2 E:\WWW\framework\web\CBaseController.php(126): require()
+#3 E:\WWW\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\WWW\framework\web\CController.php(869): UserController->renderFile()
+#5 E:\WWW\framework\web\CController.php(782): UserController->renderPartial()
+#6 E:\WWW\navgeek\protected\controllers\UserController.php(25): UserController->render()
+#7 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#8 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#10 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/login
+2016/04/29 14:51:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 14:52:08 [error] [php] Undefined index: username (E:\WWW\navgeek\protected\controllers\UserController.php:38)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/29 14:53:43 [error] [php] Undefined variable: sql (E:\WWW\navgeek\protected\controllers\UserController.php:62)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostRegister?utime=1461912823&username=95614930721@qq.com
+2016/04/29 14:57:22 [error] [php] Undefined index: username (E:\WWW\navgeek\protected\controllers\UserController.php:38)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/04/29 15:06:31 [error] [exception.CException] exception 'CException' with message 'Property "CDbCommand.execute" is not defined.' in E:\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\WWW\navgeek\protected\controllers\UserController.php(76): CComponent->__get('execute')
+#1 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostRegister()
+#2 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 E:\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\WWW\framework\web\CWebApplication.php(282): CController->run('PostRegister')
+#6 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/PostRegist...')
+#7 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 E:\WWW\navgeek\index.php(12): CApplication->run()
+#9 {main}
+REQUEST_URI=/user/PostRegister?utime=1461913591&username=956149307@qq.com
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/29 15:49:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 15:51:24 [error] [php] Undefined index: username (E:\WWW\navgeek\protected\controllers\UserController.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/user/login?status=10000
+2016/04/29 15:51:31 [error] [php] Array to string conversion (E:\WWW\navgeek\protected\controllers\UserController.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/user/login?status=10000
+2016/04/29 16:08:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 16:09:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "logout".' in E:\WWW\framework\web\CController.php:483
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(270): CController->missingAction('logout')
+#1 E:\WWW\framework\web\CWebApplication.php(282): CController->run('logout')
+#2 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/logout')
+#3 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\WWW\navgeek\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/logout
+HTTP_REFERER=http://navgeek/user/introduce
+---
+2016/04/29 16:29:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 16:31:21 [error] [php] Undefined variable: username (E:\WWW\navgeek\protected\controllers\UserController.php:117)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1461918592&username=956149307@qq.com
+2016/04/29 16:31:53 [error] [php] Undefined offset: 1 (E:\WWW\navgeek\protected\components\Func.php:18)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#2 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#4 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1461918592&username=956149307@qq.com
+2016/04/29 17:03:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 17:04:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'logs' in 'field list'. The SQL statement executed was: insert into nav_users_logs(user_id,type,logs,created_time)values(7,'user','用户注册','2016-04-29 17:04:37').
+2016/04/29 17:04:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbTransaction is inactive and cannot perform commit or roll back operations.' in E:\WWW\framework\db\CDbTransaction.php:84
+Stack trace:
+#0 E:\WWW\navgeek\protected\controllers\UserController.php(101): CDbTransaction->rollback()
+#1 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostRegister()
+#2 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 E:\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\WWW\framework\web\CWebApplication.php(282): CController->run('PostRegister')
+#6 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/PostRegist...')
+#7 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 E:\WWW\navgeek\index.php(12): CApplication->run()
+#9 {main}
+REQUEST_URI=/user/PostRegister?utime=1461920677&username=13920669186
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/29 17:07:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'logs' in 'field list'. The SQL statement executed was: insert into nav_users_logs(user_id,type,logs,created_time)values(8,'user','用户注册','2016-04-29 17:07:15').
+2016/04/29 17:07:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbTransaction is inactive and cannot perform commit or roll back operations.' in E:\WWW\framework\db\CDbTransaction.php:84
+Stack trace:
+#0 E:\WWW\navgeek\protected\controllers\UserController.php(102): CDbTransaction->rollback()
+#1 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostRegister()
+#2 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 E:\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\WWW\framework\web\CWebApplication.php(282): CController->run('PostRegister')
+#6 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/PostRegist...')
+#7 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 E:\WWW\navgeek\index.php(12): CApplication->run()
+#9 {main}
+REQUEST_URI=/user/PostRegister?utime=1461920835&username=13920669186
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/04/29 17:42:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/04/29 19:33:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/05/03 09:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://navgeek/user/PostLogin?utime=1461927497&username=956149307@qq.com
+---
+2016/05/03 09:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/05/03 10:54:20 [error] [php] Undefined variable: session (E:\WWW\navgeek\protected\controllers\UserController.php:38)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/05/03 10:54:42 [error] [php] Undefined variable: username (E:\WWW\navgeek\protected\controllers\UserController.php:38)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/05/03 10:55:20 [error] [php] Undefined variable: _SESSION (E:\WWW\navgeek\protected\controllers\UserController.php:38)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/setUserInfo
+2016/05/03 11:12:56 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'logs' in 'field list'. The SQL statement executed was: insert into nav_users_logs(user_id,type,logs,created_time)values(6,'user','用户登录','2016-05-03 11:12:56').
+2016/05/03 11:12:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'logs' in 'field list'' in E:\WWW\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\WWW\navgeek\protected\controllers\UserController.php(146): CDbCommand->execute()
+#1 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#2 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 E:\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\WWW\framework\web\CWebApplication.php(282): CController->run('PostLogin')
+#6 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/PostLogin')
+#7 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 E:\WWW\navgeek\index.php(12): CApplication->run()
+#9 {main}
+REQUEST_URI=/user/PostLogin?utime=1462245177&username=956149307@qq.com
+HTTP_REFERER=http://navgeek/user/login
+---
+2016/05/03 11:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/05/03 13:34:14 [error] [php] Undefined variable: group_type (E:\WWW\navgeek\protected\controllers\SiteController.php:45)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/site/index/id/6
+2016/05/03 13:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/05/03 13:34:20 [error] [php] Undefined variable: group_type (E:\WWW\navgeek\protected\controllers\SiteController.php:45)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/site/index
+2016/05/03 13:34:39 [error] [php] Undefined variable: group_type (E:\WWW\navgeek\protected\controllers\SiteController.php:43)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/site/index
+2016/05/03 13:34:57 [error] [php] Undefined variable: group_type (E:\WWW\navgeek\protected\controllers\SiteController.php:38)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/site/index
+2016/05/03 13:35:02 [error] [php] Undefined variable: group_type (E:\WWW\navgeek\protected\controllers\SiteController.php:30)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/site/index
+2016/05/03 13:35:18 [error] [php] Undefined variable: group_type (E:\WWW\navgeek\protected\controllers\SiteController.php:38)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+2016/05/03 13:38:35 [error] [php] Undefined variable: time (E:\WWW\navgeek\protected\controllers\UserController.php:111)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/logout
+2016/05/03 13:39:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'. The SQL statement executed was: insert into nav_users_logs(user_id,type,log,created_time)values(6,'user','用户退出登录','2016-05-03 13:39:22').
+2016/05/03 13:39:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in E:\WWW\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\WWW\navgeek\protected\controllers\UserController.php(113): CDbCommand->execute()
+#1 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionlogout()
+#2 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 E:\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\WWW\framework\web\CWebApplication.php(282): CController->run('logout')
+#6 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('user/logout')
+#7 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 E:\WWW\navgeek\index.php(12): CApplication->run()
+#9 {main}
+REQUEST_URI=/user/logout
+HTTP_REFERER=http://navgeek/
+---
+2016/05/03 13:42:44 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1462254165&username=
+2016/05/03 13:42:54 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1462254174&username=
+2016/05/03 13:42:58 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1462254178&username=
+2016/05/03 13:46:13 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1462254373&username=
+2016/05/03 13:46:30 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1462254390&username=
+2016/05/03 13:46:36 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1462254396&username=
+2016/05/03 13:47:22 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1462254442&username=
+2016/05/03 13:47:37 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1462254458&username=
+2016/05/03 13:47:59 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1462254479&username=
+2016/05/03 13:48:21 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1462254502&username=
+2016/05/03 13:48:40 [error] [php] mcrypt_decrypt(): The IV parameter must be as long as the blocksize (E:\WWW\navgeek\protected\components\Func.php:14)
+Stack trace:
+#0 E:\WWW\framework\web\actions\CInlineAction.php(49): UserController->actionPostLogin()
+#1 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\WWW\framework\web\CController.php(286): UserController->runAction()
+#3 E:\WWW\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 E:\WWW\framework\web\CWebApplication.php(282): UserController->run()
+#5 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/user/PostLogin?utime=1462254502&username=
+2016/05/03 14:40:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/05/03 14:40:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty. The SQL statement executed was: .
+2016/05/03 14:40:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in E:\WWW\framework\db\CDbCommand.php:543
+Stack trace:
+#0 E:\WWW\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 E:\WWW\navgeek\protected\controllers\SiteController.php(32): CDbCommand->queryAll()
+#2 E:\WWW\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\WWW\framework\web\CWebApplication.php(282): CController->run('index')
+#7 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#8 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\WWW\navgeek\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/site/index?name=test
+---
+2016/05/03 15:01:54 [error] [php] Undefined index: post_type (E:\WWW\navgeek\protected\views\site\index.php:21)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(869): SiteController->renderFile()
+#1 E:\WWW\framework\web\CController.php(782): SiteController->renderPartial()
+#2 E:\WWW\navgeek\protected\controllers\SiteController.php(37): SiteController->render()
+#3 E:\WWW\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#6 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#8 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/site/index?name=test
+2016/05/03 15:02:19 [error] [php] Undefined index: post_type (E:\WWW\navgeek\protected\views\site\index.php:21)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(869): SiteController->renderFile()
+#1 E:\WWW\framework\web\CController.php(782): SiteController->renderPartial()
+#2 E:\WWW\navgeek\protected\controllers\SiteController.php(37): SiteController->render()
+#3 E:\WWW\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#6 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#8 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/site/index?name=test
+2016/05/03 15:02:20 [error] [php] Undefined index: post_type (E:\WWW\navgeek\protected\views\site\index.php:21)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(869): SiteController->renderFile()
+#1 E:\WWW\framework\web\CController.php(782): SiteController->renderPartial()
+#2 E:\WWW\navgeek\protected\controllers\SiteController.php(37): SiteController->render()
+#3 E:\WWW\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#6 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#8 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/site/index?name=test
+2016/05/03 15:02:20 [error] [php] Undefined index: post_type (E:\WWW\navgeek\protected\views\site\index.php:21)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(869): SiteController->renderFile()
+#1 E:\WWW\framework\web\CController.php(782): SiteController->renderPartial()
+#2 E:\WWW\navgeek\protected\controllers\SiteController.php(37): SiteController->render()
+#3 E:\WWW\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 E:\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#6 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#8 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/site/index?name=test
+2016/05/03 15:04:02 [error] [php] Undefined variable: group (E:\WWW\navgeek\protected\controllers\SiteController.php:37)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/site/index?name=test
+2016/05/03 15:04:11 [error] [php] Undefined variable: group (E:\WWW\navgeek\protected\controllers\SiteController.php:37)
+Stack trace:
+#0 E:\WWW\framework\web\CController.php(286): SiteController->runAction()
+#1 E:\WWW\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 E:\WWW\framework\web\CWebApplication.php(282): SiteController->run()
+#3 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\WWW\navgeek\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/site/index?name=test
+2016/05/03 15:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\WWW\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\WWW\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\WWW\navgeek\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

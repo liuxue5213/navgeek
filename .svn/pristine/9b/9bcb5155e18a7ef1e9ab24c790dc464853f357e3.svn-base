@@ -1,0 +1,23 @@
+<!-- <div id="dropz"></div>
+<script>
+    $("#dropz").dropzone({
+        url: "handle-upload.php",
+        maxFiles: 10,
+        maxFilesize: 512,
+        acceptedFiles: ".js,.obj,.dae"
+    });
+</script> -->
+<?php 
+if(@$msg){ ?>
+<div class="alert alert-<?php echo $reclass;?> alert-dismissable">
+   <button type="button" class="close" data-dismiss="alert" 
+      aria-hidden="true">
+      &times;
+   </button>
+   <?php echo @$msg;?>
+</div>
+<?php }?>
+<form action="/user/for_upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <input type="submit" value="上传">
+</form>

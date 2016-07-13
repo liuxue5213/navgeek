@@ -1,0 +1,150 @@
+<?php
+
+class SiteController extends CController
+{
+	// public $layout='column1';
+	/*
+	判断 用户是否登录 session
+	是  查询用户信息 个人收藏
+	否  显示推荐内容 用户注册
+	*/
+	public function actionIndex(){
+		$nickname=Yii::app()->request->getParam('name');
+		$session=Yii::app()->session['user_info'];
+		if($session['id']){
+			$sid=$session['id'];
+		}else{
+			$sid=6;
+		}
+
+		//判断 是否个人页面
+		if($nickname!=null && $session==null ){
+			//当前登录用户
+			if($session['nickname']==$nickname ){
+			$group_type= Yii::app()->db->createCommand()
+				->select('id,name')
+				->from('nav_group_type')
+				->where("status=1 and author=$sid")
+				->queryAll();
+			$titles = Yii::app()->db->createCommand()
+  				->select('id,title,url,image_url,post_type')
+ 				->from('nav_titles')
+  				->where("status=1 and author=$sid")
+  				->queryAll();
+			}else{  //查看其他用户
+
+			}
+		}else{
+			$sql="select id,name,author from (SELECT user_group_type_id AS group_id FROM nav_users_title_group a,nav_users b WHERE a.user_id=$sid AND b.nickname='".$session['nickname']."' and b.status=1) c,nav_group_type d where c.group_id=d.id and d.status=1";
+			$group_type=Yii::app()->db->createCommand($sql)->queryAll();
+			$tsql="SELECT b.id,b.title,b.url,b.image_url,b.post_type FROM (SELECT user_group_type_id AS group_id FROM nav_users_title_group a,nav_users b WHERE a.user_id=$sid AND b.nickname='".$session['nickname']."' and b.status=1)a,nav_titles b WHERE a.group_id=b.post_type and b.status=1 AND b.comment_status='open' ";
+			$titles=Yii::app()->db->createCommand($tsql)->queryAll();
+		}
+		// echo $session['nickname'];
+		// echo $nickname;
+		// print_r($group_type);
+		// print_r($titles);
+		// die;
+		$this->render('index',array('data'=>$titles,'group'=>$group_type));
+	}
+
+
+	public function actionInput_url(){
+		$filename="收藏20160404-211852.html";
+		$filepath='yii'.Yii::app()->request->baseUrl."/uploads/html/".$filename;
+		$data=file_get_contents($filepath);
+		echo $data;
+	}
+
+	public function actionUpload(){
+		$this->render('upload',array());
+	}
+
+
+	public function actionReferNavs(){
+		// Yii::app()->session->destroy();
+		// 解密
+		// $aes->decode($string);
+		$this->render('navs',array());
+	}
+
+
+	public function actionReferNews(){
+		
+
+		
+		$this->render('news',array());
+	}
+
+	// /**
+	//  * This is the action to handle external exceptions.
+	//  */
+	// public function actionError()
+	// {
+	//     if($error=Yii::app()->errorHandler->error)
+	//     {
+	//     	if(Yii::app()->request->isAjaxRequest)
+	//     		echo $error['message'];
+	//     	else
+	//         	$this->render('error', $error);
+	//     }
+	// }
+
+	// /**
+	//  * Displays the contact page
+	//  */
+	// public function actionContact()
+	// {
+	// 	$model=new ContactForm;
+	// 	if(isset($_POST['ContactForm']))
+	// 	{
+	// 		$model->attributes=$_POST['ContactForm'];
+	// 		if($model->validate())
+	// 		{
+	// 			$headers="From: {$model->email}\r\nReply-To: {$model->email}";
+	// 			mail(Yii::app()->params['adminEmail'],$model->subject,$model->body,$headers);
+	// 			Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+	// 			$this->refresh();
+	// 		}
+	// 	}
+	// 	$this->render('contact',array('model'=>$model));
+	// }
+
+	// /**
+	//  * Displays the login page
+	//  */
+	// public function actionLogin()
+	// {
+	// 	if (!defined('CRYPT_BLOWFISH')||!CRYPT_BLOWFISH)
+	// 		throw new CHttpException(500,"This application requires that PHP was compiled with Blowfish support for crypt().");
+
+	// 	$model=new LoginForm;
+
+	// 	// if it is ajax validation request
+	// 	if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
+	// 	{
+	// 		echo CActiveForm::validate($model);
+	// 		Yii::app()->end();
+	// 	}
+
+	// 	// collect user input data
+	// 	if(isset($_POST['LoginForm']))
+	// 	{
+	// 		$model->attributes=$_POST['LoginForm'];
+	// 		// validate user input and redirect to the previous page if valid
+	// 		if($model->validate() && $model->login())
+	// 			$this->redirect(Yii::app()->user->returnUrl);
+	// 	}
+	// 	// display the login form
+	// 	$this->render('login',array('model'=>$model));
+	// }
+
+	// /**
+	//  * Logs out the current user and redirect to homepage.
+	//  */
+	// public function actionLogout()
+	// {
+	// 	Yii::app()->user->logout();
+	// 	$this->redirect(Yii::app()->homeUrl);
+	// }
+}

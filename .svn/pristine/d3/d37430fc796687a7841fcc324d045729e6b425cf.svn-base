@@ -1,0 +1,143 @@
+<?php
+
+class SiteController extends CController
+{
+	// public $layout='column1';
+	public function actionIndex()
+	{
+		/*
+		判断 用户是否登录 session
+		是  查询用户信息 个人收藏
+		否  显示推荐内容 用户注册
+		 */
+
+		$group_type= Yii::app()->db->createCommand()
+			->select('id,name')
+			->from('nav_group_type')
+			->order('id asc')
+			->queryAll();
+
+		$titles = Yii::app()->db->createCommand()
+  			->select('id,title,url,image_url,post_type')
+ 			->from('nav_titles')
+  			->where(array('status=1','author=1'))
+  			->queryAll();
+
+		// print_r($titles);
+		// exit();
+
+
+		// $test=NavTest::model()
+		// 	->findAll("post_type='post' ");
+		// print_r($group);
+		// exit();
+		// $this->render('index',array('name'=>'JohnScott'));
+		$this->render('index',array('name'=>'JohnScott','data'=>$titles,'group'=>$group_type));
+
+	}
+
+
+	public function actionInpt_url(){
+		$filename="收藏20160404-211852.html";
+		$filepath='yii'.Yii::app()->request->baseUrl."/uploads/html/".$filename;
+		$data=file_get_contents($filepath);
+		echo $data;
+	}
+
+	public function actionUpload(){
+
+		$this->render('upload',array());
+	}
+
+
+	public function actionReferNavs(){
+		// $privateKey = "liuxueliuxue1234";
+ 	// 	$iv ="liuxueliuxue1234";
+ 	// 	$encryptedData = base64_decode("9/bwUzKYHXDQOL3taudkCQ==");
+ 	// 	$decrypted = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, $privateKey, $encryptedData, MCRYPT_MODE_CBC, $iv);
+ 	// 	echo($decrypted);
+
+		// 解密
+		// $aes->decode($string);
+
+		$this->render('navs',array());
+	}
+
+
+	public function actionReferNews(){
+
+		$this->render('news',array());
+	}
+
+	// /**
+	//  * This is the action to handle external exceptions.
+	//  */
+	// public function actionError()
+	// {
+	//     if($error=Yii::app()->errorHandler->error)
+	//     {
+	//     	if(Yii::app()->request->isAjaxRequest)
+	//     		echo $error['message'];
+	//     	else
+	//         	$this->render('error', $error);
+	//     }
+	// }
+
+	// /**
+	//  * Displays the contact page
+	//  */
+	// public function actionContact()
+	// {
+	// 	$model=new ContactForm;
+	// 	if(isset($_POST['ContactForm']))
+	// 	{
+	// 		$model->attributes=$_POST['ContactForm'];
+	// 		if($model->validate())
+	// 		{
+	// 			$headers="From: {$model->email}\r\nReply-To: {$model->email}";
+	// 			mail(Yii::app()->params['adminEmail'],$model->subject,$model->body,$headers);
+	// 			Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+	// 			$this->refresh();
+	// 		}
+	// 	}
+	// 	$this->render('contact',array('model'=>$model));
+	// }
+
+	// /**
+	//  * Displays the login page
+	//  */
+	// public function actionLogin()
+	// {
+	// 	if (!defined('CRYPT_BLOWFISH')||!CRYPT_BLOWFISH)
+	// 		throw new CHttpException(500,"This application requires that PHP was compiled with Blowfish support for crypt().");
+
+	// 	$model=new LoginForm;
+
+	// 	// if it is ajax validation request
+	// 	if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
+	// 	{
+	// 		echo CActiveForm::validate($model);
+	// 		Yii::app()->end();
+	// 	}
+
+	// 	// collect user input data
+	// 	if(isset($_POST['LoginForm']))
+	// 	{
+	// 		$model->attributes=$_POST['LoginForm'];
+	// 		// validate user input and redirect to the previous page if valid
+	// 		if($model->validate() && $model->login())
+	// 			$this->redirect(Yii::app()->user->returnUrl);
+	// 	}
+	// 	// display the login form
+	// 	$this->render('login',array('model'=>$model));
+	// }
+
+	// /**
+	//  * Logs out the current user and redirect to homepage.
+	//  */
+	// public function actionLogout()
+	// {
+	// 	Yii::app()->user->logout();
+	// 	$this->redirect(Yii::app()->homeUrl);
+	// }
+}

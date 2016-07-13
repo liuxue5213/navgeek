@@ -1,0 +1,187 @@
+# ************************************************************
+# Sequel Pro SQL dump
+# Version 4500
+#
+# http://www.sequelpro.com/
+# https://github.com/sequelpro/sequelpro
+#
+# Host: 127.0.0.1 (MySQL 5.7.11)
+# Database: navgeek
+# Generation Time: 2016-04-11 05:40:18 +0000
+# ************************************************************
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+
+# Dump of table nav_crawler_data
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `nav_crawler_data`;
+
+CREATE TABLE `nav_crawler_data` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(80) NOT NULL DEFAULT '',
+  `url` varchar(255) NOT NULL DEFAULT '',
+  `image_url` varchar(255) DEFAULT NULL,
+  `status` int(1) DEFAULT NULL COMMENT '0',
+  `updated_time` datetime DEFAULT NULL,
+  `created_time` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+# Dump of table nav_crawler_urls
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `nav_crawler_urls`;
+
+CREATE TABLE `nav_crawler_urls` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(80) NOT NULL DEFAULT '',
+  `url` varchar(255) NOT NULL DEFAULT '',
+  `status` int(1) DEFAULT NULL COMMENT '0',
+  `updated_time` datetime DEFAULT NULL,
+  `created_time` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+# Dump of table nav_group_type
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `nav_group_type`;
+
+CREATE TABLE `nav_group_type` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(80) NOT NULL DEFAULT '',
+  `status` int(1) DEFAULT NULL COMMENT '0',
+  `author` int(11) DEFAULT NULL,
+  `updated_time` datetime DEFAULT NULL,
+  `created_time` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+LOCK TABLES `nav_group_type` WRITE;
+/*!40000 ALTER TABLE `nav_group_type` DISABLE KEYS */;
+
+INSERT INTO `nav_group_type` (`id`, `name`, `status`, `author`, `updated_time`, `created_time`)
+VALUES
+	(1,'舰娘',1,1,NULL,NULL),
+	(2,'博客',1,1,NULL,NULL),
+	(3,'工具',1,1,NULL,NULL),
+	(4,'响应式',1,1,NULL,NULL),
+	(5,'未分类',1,1,NULL,NULL),
+	(6,'html css',1,1,NULL,NULL);
+
+/*!40000 ALTER TABLE `nav_group_type` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table nav_index_navigator
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `nav_index_navigator`;
+
+CREATE TABLE `nav_index_navigator` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(80) NOT NULL DEFAULT '',
+  `url` varchar(255) NOT NULL DEFAULT '',
+  `image_url` varchar(255) DEFAULT NULL,
+  `post_type` int(5) DEFAULT NULL COMMENT '0',
+  `status` int(1) DEFAULT NULL COMMENT '0',
+  `updated_time` datetime DEFAULT NULL,
+  `created_time` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+# Dump of table nav_titles
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `nav_titles`;
+
+CREATE TABLE `nav_titles` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(80) NOT NULL DEFAULT '',
+  `url` varchar(255) NOT NULL DEFAULT '',
+  `image_url` varchar(255) DEFAULT NULL,
+  `author` int(11) NOT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `post_type` int(5) DEFAULT NULL COMMENT '0',
+  `status` int(1) DEFAULT NULL COMMENT '0',
+  `updated_time` datetime DEFAULT NULL,
+  `created_time` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+LOCK TABLES `nav_titles` WRITE;
+/*!40000 ALTER TABLE `nav_titles` DISABLE KEYS */;
+
+INSERT INTO `nav_titles` (`id`, `title`, `url`, `image_url`, `author`, `user_id`, `post_type`, `status`, `updated_time`, `created_time`)
+VALUES
+	(1,'艦隊これくしょん～艦これ～ - オンラインゲーム - DMM.com','http://www.dmm.com/netgame_s/kancolle/',NULL,1,NULL,1,1,NULL,NULL),
+	(2,'舰队collection阵型加成对比分析一览表_页游家舰队collection','http://www.yeyoujia.com/jn/gl/6542891121059.html',NULL,1,NULL,1,1,NULL,NULL),
+	(3,'【转帖】【练船指南】舰娘能力评析及入手推荐，我该练哪些船？ver201412 - N宅！ACG游戏攻略组','http://notaku.cn/article/32',NULL,1,NULL,1,1,NULL,NULL),
+	(4,'最新舰娘 远征&任务表 （2014.9.20更新 包含要求+掉落+收益报酬 舰队collection） - 校园水区 - 中国海洋大学论坛-海大学习论坛 - P','http://bbs.oucer.net/thread-841-1-1.html',NULL,1,NULL,1,1,NULL,NULL),
+	(5,'舰队collection全地图完整攻略——超完整版！ - N宅！ACG游戏攻略组','http://notaku.cn/article/11',NULL,1,NULL,1,1,NULL,NULL),
+	(6,'艦隊Collection/期間限定海域/發令！第十一號作戰 - 萌娘百科 萬物皆可萌的百科全書','http://zh.moegirl.org/%E8%88%B0%E9%98%9FCollection/%E6%9C%9F%E9%97%B4%E9%99%90%E5%AE%9A%E6%B5%B7%E5%9F%9F/%E5%8F%91%E4%BB%A4%EF%BC%81%E7%AC%AC%E5%8D%81%E4%B8%80%E5%8F%B7%E4%BD%9C%E6%88%98#E1.E3.80.90.E5.8F.91.E5.8A.A8.E5.87.86.E5.A4.87.EF.BC.8C.E7.AC.AC.E',NULL,1,NULL,1,1,NULL,NULL),
+	(7,'unlockACGWeb Pro','http://unlockacgweb.galstars.net/',NULL,1,NULL,1,1,NULL,NULL),
+	(8,'奋斗在韩国 韩国留学生论坛-论坛-韩国留学生 在韩华人生活娱乐 以韩国留学生为本 韩国中文','http://bbs.icnkr.com/',NULL,1,NULL,2,1,NULL,NULL),
+	(9,'네이버 부동산 :: 내집마련의 시작, 네이버 부동산','http://land.naver.com/search/article.nhn?tab=article&query=%EC%84%9C%EC%9A%B8%208%EB%B0%B1%EB%A7%8C%EC%9B%90%20%EC%9D%B4%EC%83%81%20%EC%95%84%ED%8C%8C%ED%8A%B8%20%EC%9B%94%EC%84%B8#%7B%22rletType%22%3A%22A01%3AA03%3AA04%22%2C%22tradeType%22%3A%22B2%22%2C%',NULL,1,NULL,2,1,NULL,NULL),
+	(10,'NAVER[韩]','http://www.naver.com/',NULL,1,NULL,2,1,NULL,NULL),
+	(11,'Amie.Nei(endingrsq)_饭否','http://fanfou.com/endingrsq',NULL,1,NULL,2,1,NULL,NULL),
+	(12,'josephine911(josephine911)_饭否','http://fanfou.com/josephine911',NULL,1,NULL,2,1,NULL,NULL),
+	(13,'最好的时光 @ 不老歌 - 记录与分享','http://bulaoge.net/?apresete',NULL,1,NULL,2,1,NULL,NULL),
+	(14,'싸이월드','http://www.cyworld.com/cymain/?f=cymain',NULL,1,NULL,2,1,NULL,NULL);
+
+/*!40000 ALTER TABLE `nav_titles` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table nav_users
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `nav_users`;
+
+CREATE TABLE `nav_users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nickname` varchar(50) NOT NULL DEFAULT '',
+  `username` varchar(50) NOT NULL DEFAULT '',
+  `email` varchar(255) DEFAULT NULL,
+  `mobile` int(11) NOT NULL,
+  `sex` int(1) DEFAULT NULL COMMENT '0',
+  `address` varchar(50) DEFAULT NULL,
+  `birthday` date DEFAULT NULL COMMENT '0',
+  `updated_time` datetime DEFAULT NULL,
+  `created_time` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+LOCK TABLES `nav_users` WRITE;
+/*!40000 ALTER TABLE `nav_users` DISABLE KEYS */;
+
+INSERT INTO `nav_users` (`id`, `nickname`, `username`, `email`, `mobile`, `sex`, `address`, `birthday`, `updated_time`, `created_time`)
+VALUES
+	(1,'JohnScott','刘学','956149307@qq.com',0,0,'beijing',NULL,NULL,NULL);
+
+/*!40000 ALTER TABLE `nav_users` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

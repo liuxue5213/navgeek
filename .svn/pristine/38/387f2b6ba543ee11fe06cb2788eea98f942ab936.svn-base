@@ -1,0 +1,25 @@
+# pack-refs with: peeled fully-peeled 
+1674e719b04bc7669fb6807756b5ec86cc7f2808 refs/remotes/origin/develop
+6362ada6faea779c3eb1f814257d885bb888e776 refs/remotes/origin/master
+b9673cb89634dfe4b1ba6f68a24191080feb89a7 refs/remotes/origin/svn-mirror/3.0.2
+9341d5582a0004889b7e7202ce44ffe3759aef5c refs/remotes/origin/svn-mirror/3.1.2
+3d14212d0fde224719b6753971c58a5a83b917ba refs/tags/3.1.3
+^914b89bff9e7147edd7cf5b79b17adf77be87c9d
+9cc7f829741eddabe693a704f10f972fb9c0d5a6 refs/tags/3.1.4
+^7ed8a08ceac45093aacbcc5aed11e28bcbb7c58e
+9710bde9c73548cac712506e4b9f6125a4cf3f2c refs/tags/3.1.5
+^a94ba57c7a77edfff50ff037498b83f1cd3cb3eb
+f92d7ed1c322b305d04c4b6fcd8970644da89111 refs/tags/3.1.6
+^6362ada6faea779c3eb1f814257d885bb888e776
+db8c2bdd62b34917fa00bf22c30a83e7955cd93c refs/tags/release-3.1.2
+^7e09961c6174bb23912d95e42fec340f38babdb0
+ca55b131a5ec47ba19bfc3ddef5207813dcfddb4 refs/tags/release-3.1.2-1
+^59e465a8055946e84099bfaa8d9ce0e1d1371f51
+3e07452aa79007d9d00e99e0dde577a391bcd65f refs/tags/release-3.1.2-2
+^473191f9df1caf51e9aab5e9222491924efcba40
+46f53b8b0e0b35ad476d9bae26870216284fcd14 refs/tags/release-3.1.2-3
+^93b69a33edccaaccf95b224b85c79abefecbd092
+1b67100e1ac56c56d606b570cf5ac4676687d3d5 refs/tags/release-3.1.2-4
+^7ddded8c104f3f6b13b9a653056bcb5f36249719
+03a558d4a336a0dc55fa2b0797e032e435fe7628 refs/tags/release-3.1.2-5
+^8d4a2d3de4d072ba772d794a97042be04a66e38c

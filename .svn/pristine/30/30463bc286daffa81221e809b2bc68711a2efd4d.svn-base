@@ -1,0 +1,8 @@
+<form action="">
+    <select name="addr" id="addr">
+        <option value="1">1</option>
+        <option value="2">2</option>
+    </select> 
+</form>
+
+

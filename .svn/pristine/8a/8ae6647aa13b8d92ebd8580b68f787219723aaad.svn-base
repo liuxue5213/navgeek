@@ -1,0 +1,160 @@
+<?php
+/**
+ * @Author: anchen
+ * @Date:   2016-04-13 11:42:47
+ * @Last Modified by:   anchen
+ * @Last Modified time: 2016-04-28 20:02:08
+ */
+
+class UserController extends CController{
+    public function actionLogin(){
+        // $Yii::app()->request->parameter();
+        // $a=Yii::app()->session['956149307@qq.com'];
+        // print_r($a);
+        // unset(Yii::app()->session['var']);
+        // print_r($_COOKIE);
+
+        // $redis = new redis();  
+        // $result = $redis->connect('127.0.0.1',6379);  
+        // var_dump($result); //结果：bool(true)  
+
+
+        $this->render('login',array());
+    }
+
+    /*
+    用户管理  登录
+     */
+    public function actionPostLogin(){
+        // $str=Yii::app()->request->getParam('str');
+        $ctime=Yii::app()->request->getParam('utime');
+        $a=Yii::app()->session['956149307@qq.com'];
+        $privateKey = "liuxue".$utime;
+        $arr=explode('&',$decrypted);
+        for($i=0;$i<count($arr);$i++){
+            $arr_one[$i]=explode('=',$arr[$i]);
+        }
+        $username=$arr_one[0][1];
+        $password=$arr_one[1][1];
+        // 设置session变量：
+        Yii::app()->session[$username]=array('ctime'=>$utime); 
+        // $this->render('login',array());
+    }
+
+    
+    /*
+    设置用户信息
+     */
+    public function actionSetUserInfo(){
+        $str=Yii::app()->request->getParam('str');
+        $utime=Yii::app()->request->getParam('utime');
+        //解密
+        $arr=Func::php_decode($utime,$str);
+        // 设置session变量：
+        if($arr['username']){
+            Yii::app()->session[$arr['username']]=array('ctime'=>$utime,'data'=>$str);
+            echo '1';
+        }else{
+            echo '0';
+        }
+        // $pattern = '/(.*?)=(.*)/i'; 
+        // for($i=0;$i<count($arr);$i++) { 
+        //     preg_match_all($pattern,$arr[$i],$rs[$i]);
+        //     $rs[$i][1][0]=$rs[$i][2][0];
+        // } 
+    }
+
+
+
+    public function PostRegister(){
+
+    }
+
+
+
+
+
+
+
+
+    public function actionSetting(){
+        $this->render('setting',array());
+    }
+
+
+    public function actionUpload(){
+        $this->render('upload',array());
+    }
+
+    public function actionIntroduce(){
+        $this->render('introduce',array());
+    }
+
+
+
+
+
+
+
+
+
+
+
+    public function actionFor_Upload(){
+        // print_r($_FILES);
+        $content=file_get_contents($_FILES['file']['tmp_name']);
+        $arr=self::get_links($content);
+        // print_r($arr); 
+        // die();
+
+        $link=$arr[2];
+        $title=$arr[4];
+        $image_url='';
+        $author='1';
+
+        $transaction=Yii::app()->db->beginTransaction();
+        try{
+            //拼接 插入SQL语句
+            if(count($link)>0){
+                $sql="INSERT INTO nav_titles(title,url,image_url,author,post_type,status,updated_time,created_time) VALUES";
+                for ($i=80; $i <85; $i++) { 
+                    // if(strstr($title[$i],"'")){
+                    //     $tt=str_replace("'","",$title[$i]);
+                    // }else{
+                    //     $tt=$title[$i];
+                    // }
+                    $sql.="('$title[$i]','$link[$i]','$image_url','$author','1','1',now(),now() ),";
+                }
+                $sql=strval(substr($sql,0,-1));
+               
+                // $rs=Yii::app()->db->createCommand($sql)->execute();
+                echo $sql;
+                exit();
+            }
+            
+            //提交事务会真正的执行数据库操作
+            $transaction->commit();
+            $this->render('upload',array('reclass'=>'success','msg'=>'数据导入成功'));
+        }catch (Exception $e) {
+            $transaction->rollback();
+            $this->render('upload',array('reclass'=>'danger','msg'=>"数据导入失败.$e"));
+        }
+        
+    }
+
+
+    public static function get_links($content) {  
+        $pattern = '/<a(.*?) href="(.*?)" (.*?)>(.*?)<\/a>/i';  
+        preg_match_all($pattern, $content, $m);  
+        return $m;  
+    }
+
+
+
+    
+
+    
+
+
+
+}
